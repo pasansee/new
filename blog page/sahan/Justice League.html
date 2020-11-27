@@ -1,0 +1,631 @@
+<html>
+<head>
+    <title>Review: Justice League</title> 
+    <meta name="viewport" content="width=device=width" initial-scale="1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" >
+         <style>
+             
+                          a { text-decoration: none; }
+
+            .clearfix { overflow: auto }
+
+
+    
+            .hero-image {
+              background-image:url("videoblocks-abstract-clouds-of-colored-smoke-over-a-black-and-red-lights-on-black-background-in-studio_b_z3xwepom_thumbnail-1080_01.png");   
+              
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+            }
+
+            .hero-text {
+              text-align: center;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(50%, 50%);
+              color: white;
+            }
+
+
+            header .logo {
+                margin-top: 10px;
+                margin-left: 10px; 
+                float: left;
+            }
+
+            header.logo  { 
+                font-size: 10px;
+                font-weight: normal;
+                letter-spacing: -1px;
+                font-variant: small-caps;
+            }
+
+
+            .socialmedia { 
+                float: right; 
+                margin-top: 10px;
+                margin-right: 20px;
+            }
+
+            .socialmedia ul { 
+                list-style: none 
+            }
+
+            .socialmedia ul li { 
+                display: inline 
+            }
+
+            .socialmedia ul li a {
+                margin-left: 5px;
+                padding: 6px;
+                background: #444;
+                color: #fff;
+                display: inline-block;
+                border-radius: 20px;
+            }
+
+            .socialmedia ul li a:hover {
+                background:#00ff99 ;
+            }  
+
+
+        
+             nav {
+
+                font-size: 20px;
+                margin-top: 10px;
+                background:transparent;
+                background: linear-gradient(#009999);
+                text-align: center;
+                border-radius: 10px;
+
+                border-style: double;
+                border-width: 5px;
+            }
+
+            nav ul {
+                list-style:initial;
+            }
+
+            nav ul li {
+                display: inline;
+            }
+
+            nav ul li a {
+                color: #fff;
+                text-transform: uppercase;
+                margin: 10px 20px 10px 20px;
+                display: inline-block;
+
+            }
+
+            nav ul li a:hover {
+                color: sandybrown;
+            }
+
+             
+             
+             
+        body{
+            background-color:black;
+            margin:0px;
+             font-family: 'Merienda One', cursive;
+            color:aqua;
+           background-image: url(BK.jpeg);
+            background-repeat: repeat-y;
+            background-size:cover;
+            border: 0px;
+            padding: 0px;
+        }
+        
+         header{
+             padding:60px;
+             text-align:left;
+             color:azure;
+             
+             font-size: 40px;
+                 
+         }
+             
+        .container img {
+             width: 100%;
+             height: auto;
+            background-size: cover;
+             background-position:center;
+            background-repeat: no-repeat;
+    
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .img-text-wrapper {
+            position:absolute;
+            top:auto;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+          
+            
+        }
+        
+        .subtitle           {
+              position: absolute; 
+              top:30px;  
+              right: 80px;
+              color:greenyellow; 
+              font-weight: 600;
+              font-size: 40px;
+        }
+             
+             
+         #button {
+              position:absolute;
+              top: 100px;
+              left: 400px;
+              transform: translate(-50%, -50%);
+              background-color:transparent;
+              color:greenyellow;
+              font-size: 35px;
+              padding: 15px 40px;
+              border: none;
+              cursor:pointer;
+              border-radius: 50px;
+              text-align:right;
+              font-family: 'Merienda One', cursive;
+             
+        }
+             
+             
+             .bk {
+                 filter: brightness(80%);
+                 border-top: 100px;
+               
+             }
+             .reviews1{
+                 position: absolute;
+                 top:100px;
+                 left: 150px;
+                 color:aqua;
+                 font-size: 20px;
+                 font-weight: 600;
+             }
+             .subtitle2{
+                  position: absolute; 
+                  top:500px;  
+                  right: 80px;
+                  color:greenyellow; 
+                  font-weight: 600;
+                  font-size: 40px;
+             }
+             .reviews2{
+                 position: absolute;
+                 top:600px;
+                 left: 150px;
+                 right: 50px;
+                 color:aqua;
+                 font-size: 20px;
+                 font-weight: 600;
+             }
+             .subtitle3{
+                  position: absolute; 
+                  top:1150px;  
+                  right: 80px;
+                  color:greenyellow; 
+                  font-weight: 600;
+                  font-size: 40px;
+             }
+             .reviews3{
+                position: absolute;
+                 top:1250px;
+                 left: 150px;
+                 right: 50px;
+                 color:darkgray;
+                 font-size: 20px;
+                 font-weight: 600; 
+             }
+             
+             
+             
+                  @media screen and (max-width: 1300px) {
+                    .subtitle3{
+
+                          top:1300px;  
+                         
+
+                     }
+                     .reviews3{
+
+                         top:1400px;
+
+
+                     }
+
+                         .subtitle2{
+
+                          top:500px;
+            }
+                         .reviews2{
+                         top:600px;
+                         }
+}
+
+@media screen and (max-width: 1100px) {
+                    .subtitle3{
+
+                              top:1400px;  
+
+
+                         }
+                         .reviews3{
+
+                             top:1500px;
+
+
+                         }
+
+                .subtitle2{
+
+                              top:500px;
+                }
+                .reviews2{
+                             top:600px;
+                             }
+  }
+             
+@media screen and (max-width: 950px) {
+                .subtitle3{
+
+                          top:1550px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:1650px;
+
+
+                     }
+    
+                .subtitle2{
+
+                              top:600px;
+                    }
+                    .reviews2{
+                             top:700px;
+                             }
+  }
+@media screen and (max-width: 870px) {
+                    .subtitle3{
+
+                          top:1750px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:1850px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:700px;
+                        }
+                        .reviews2{
+                             top:800px;
+                             }
+  }
+             
+@media screen and (max-width: 840px) {
+                    .subtitle3{
+              
+                          top:1900px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2000px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:700px;
+                    }
+                    .reviews2{
+                             top:800px;
+                             }
+  }  
+@media screen and (max-width: 800px) {
+                        .subtitle3{
+
+                              top:2000px;  
+
+
+                         }
+                         .reviews3{
+
+                             top:2100px;
+
+
+                         }
+    
+                        .subtitle2{
+
+                              top:700px;
+                        }
+                        .reviews2{
+                             top:800px;
+                             }
+  } 
+  
+@media screen and (max-width: 750px) {
+                    .subtitle3{
+
+                          top:2100px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2200px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:700px;
+                    }
+                    .reviews2{
+                             top:800px;
+                             }
+  } 
+             
+@media screen and (max-width: 700px) {
+                    .subtitle3{
+
+                          top:2200px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2300px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:750px;
+                    }
+                    .reviews2{
+                             top:850px;
+                             }
+  } 
+             
+@media screen and (max-width: 670px) {
+                    .subtitle3{
+
+                          top:2350px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2450px;
+
+
+                     }
+  } 
+@media screen and (max-width: 640px) {
+                    .subtitle3{
+
+                          top:2450px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2550px;
+
+
+                     }
+  }
+             
+@media screen and (max-width: 600px) {
+                    .subtitle3{
+
+                          top:2550px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2650px;
+
+
+                     }
+  } 
+@media screen and (max-width: 580px) {
+                    .subtitle3{
+
+                          top:2650px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2750px;
+
+
+                     }
+  } 
+             
+@media screen and (max-width: 550px) {
+                    .subtitle3{
+
+                          top:2750px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2850px;
+
+
+                     }
+  }              
+   @media screen and (max-width: 520px) {
+                    .subtitle3{
+
+                          top:2950px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:3050px;
+
+
+                     }
+  }           
+    </style>
+</head>
+<body>
+    
+    	<div class="hero-image">
+        
+			<div class="logo"><a href="index.html">
+                <img src= "icone.jpeg" alt="logo" width="200" ></a>
+            </div> <!-- logo -->
+
+			
+        
+               <div>
+
+                 <nav > 
+
+                     <ul class="double">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Movies.html">Movies </a></li>
+                            <li><a href="theater.html">Theaters</a></li>
+
+                            <li><a href="Blog page.html">Blog</a></li>
+                            <li><a href="buy ticket.html">Buy Move Tickets</a></li>
+                            <li><a href="login.php">Log In</a></li>
+                     </ul>
+                </nav>
+
+            </div>
+
+            <div>
+                <div class="socialmedia">
+                        <ul>
+                            <li><a href="https://www.facebook.com/vitaliagarden/"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram  fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-snapchat fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus fa-fw" aria-hidden="true"></i></a></li>
+                        </ul>
+                </div> <!-- socialmedia -->
+            </div>
+                
+	
+    </div> 
+    
+    
+   <header>Big Screen-Blog</header>
+    
+    <div class="container">
+        <div class="img-text-wrapper">
+            <img src="Justice%20League%202.jpg">
+                <div class="subtitle">
+                        Review: Justice League
+                        <div id="iframeHolder">
+                            <button id="button">trailer</button>
+                        </div>
+                 </div>
+                        <div class="bk"> 
+                            
+                                <div class="subtitle"> MOVIE DETAILS</div>
+                            
+                                     <div class="reviews1">
+                                            <ul>
+                                                <li>In theaters: November 17, 2017</li>
+                                                <li>On DVD or streaming: March 13, 2018</li>
+                                                <li>Cast: Ben Affleck, Jason Momoa, Gal Gadot</li>
+                                                <li>Director: Zack Snyder</li>
+                                                <li>Studio: Warner Bros.</li>
+                                                <li>Genre: Action/Adventure</li>
+                                                <li>Topics: Superheroes</li>
+                                                <li>Character strengths: Courage, Teamwork</li>
+                                                <li>Run time: 121 minutes</li>
+                                                <li>MPAA rating: PG-13</li>
+                                                <li>MPAA explanation: sequences of sci-fi violence and action</li>
+                                                <li>Last updated: October 27, 2020</li>
+                                                
+                                            </ul>
+                                         
+                                    </div>  
+                            <div class="subtitle2">IS IT ANY GOOD?</div>
+                                <div class="reviews2">
+                                    <p>DC's ensemble adventure works best when it's highlighting co-screenwriter/director Joss Whedon's signature team-building elements, which humanize each superhero. But it's ultimately not as cohesive or memorable as Wonder Woman. It is, however, better than Batman v Superman (though once more it's the melancholy Superman subplot that brings the story down). The cast, led by Affleck and Gadot, is certainly good, but the band of superheroes doesn't quite gel until the final battle sequence. Until then, they're all sizing one another up -- and, in the case of Aquaman, finding others (with the exception of Wonder Woman) lacking. At one point, Aquaman literally says to Bruce, in what becomes a running gag, "You have no powers, no offense." </p>
+                                    <p>A big part of the reason that the movie feels uneven is that it was directed by both Zach Snyder and Whedon (official credit notwithstanding), who stepped in after a family tragedy forced Snyder to withdraw from the film. Snyder is an action stylist (all those slow-motion shots of the superheroes mid-air, about to punch, stab, hit someone!), but he isn't exactly a master at realistic dialogue. Whedon, meanwhile, is a specialist in witty banter, ensemble relationships, and dialogue. Those familiar with both filmmakers' styles will find it easy to tell which aspects of the movie are Snyder's and which are Whedon's, but they don't always blend together well. On the bright side, the additions to the team are all compelling in their own ways, with Miller's The Flash as the punchy, adorkable teen of the bunch (like the new Spider-Man over at Marvel). This may not be the universal win DC wanted after the studio's Wonder Woman high, but there's a lot of potential for the sequel, as well as individual Justice League movies.</p>
+                            </div>   
+                                    
+                            <div class="subtitle3">WHAT'S THE STORY?</div>
+                                <div class="reviews3">
+                                    
+                                    <p>The film opens with camera phone footage of Clark Kent/Superman (Henry Cavill) recorded by two kids. They interview him just after one of his heroic missions. One of the kids asks Superman what his favorite thing about Earth is. He smiles but the footage cuts off before he gives his answer.</p>
+                                    <p>It's now months later in Gotham City. A man (Holt McCallany) on a rooftop has just committed a robbery. He sees Bruce Wayne/Batman (Ben Affleck) perched on a gargoyle before he leaps over and fights the man. Batman dangles the man over a ledge, using the man's fear to lure out a strange, winged creature. Batman fights the monster until he traps it in a net. The creature explodes moments later, leaving behind three boxes burnt on the wall. Alfred (Jeremy Irons) sees this through the monitor. He tells Batman it's time to round up his team.</p>
+                                    <p>It has been several years since Superman's death (from the film 'Batman vs. Superman: Dawn of Justice'); people all around the world still mourn him. Martha Kent (Diane Lane) has moved away from her rural home in Smallville while Lois Lane (Amy Adams) feels more alone.</p>
+                                    <p>In London, a team of robbers stage a heist in a bank, holding the bank's customers as hostages. Standing atop a statue of the Greek goddess Themis (Lady Justice) Diana Prince/Wonder Woman (Gal Gadot) leaps down to stop them. The leader of the robbers plans to use a bomb to destroy nearby technology and bring the city back to the Dark Ages, but Wonder Woman fights back and throws the bomb into the sky as it explodes. The leader then tries to shoot all the hostages; Wonder Woman runs and deflects all the bullets with her gauntlets. She then clashes the gauntlets together to defeat the leader.</p>
+                                    <p>Bruce travels to a small town in Iceland to find Arthur Curry, AKA Aquaman (Jason Momoa). Bruce finds him in a tavern and offers him money to go with him, but Arthur declines. He also mentions that he knows about "The Batman" and his crimefighting in Gotham City, even expressing his admiration. He steps into the harbor and swims away at incredible speed.</p>
+                                    <p>Bruce returns home to discuss matters with Alfred. After having no luck getting Arthur on the team, his other options are Victor Stone/Cyborg (Ray Fisher), who is presumed dead, and Barry Allen/The Flash (Ezra Miller) who has been foiling minor criminals with his blinding speed.</p>
+                                    <p>Barry visits his father Henry Allen (Billy Crudup) in prison after he was locked up for allegedly murdering his wife when Barry was a child. Henry wants Barry to live his own life and to stop visiting him, because he doesn't have any hope that he will ever be freed.</p>
+                                    <p>On Themyscira, the Amazons are guarding a cube known as a Mother Box. The cube has been pulsating with energy recently, reactivated from an unknown source. A beam comes down from the sky and a swarm of Parademons descend with their leader, Steppenwolf (Ciaran Hinds). He attempts to take the Mother Box, prompting the Amazons to fight back. Steppenwolf and his Parademons force the fight outside the temple where Queen Hippolyta (Connie Nielsen) tries to keep the box from their enemy in a furious chase across the countryside. Steppenwolf proves to be too much for the Amazons and succeeds in taking the box back wit him. Hippolyta then tells her general they must ignite a fire in a temple, because Diana will know what it means. Hippolyta fires the burning arrow, and Diana sees it on the news.</p>
+                                    <p>At Star Labs, Silas Stone (Joe Morton) is leaving his job and goes home to Victor. Victor is hiding after everyone thought he died, and he is worried that his new appearance will have everyone see him as a monster. He also sadly remarks that his enhanced networking power bombards him constantly with knowledge of the entire world and that it feels overwhelming. His father pleads with him to hold on and that his powers will be useful.</p>
+                                    <p>Diana goes to find Bruce. They walk by the lake near his forest home as she tells him the history of Steppenwolf and the Mother Boxes; three exist and if brought together, Steppenwolf would create The Unity, which destroys planets and reshapes them into the hellscape of Steppenwolf's home planet. Long ago, the Amazons, Atlanteans, and the Green Lantern Corps all joined forces to fight Steppenwolf and his army, sending him away and driving him mad. Anyone who fell in battle to Steppenwolf would be reborn as Parademons, the winged monsters Bruce has been tracking. The Amazons kept one of the Boxes, the Atlanteans kept another, while the third was kept hidden in secrecy by humankind so that nobody may be tempted to harness its power. As Bruce and Diana walk away, Cyborg is watching them nearby.</p>
+                                    <p>Bruce locates Barry's hideout in Central City. While he knows who Barry really is, Barry denies it until Bruce throws a batarang, which Barry easily catches. Realizing Bruce is Batman, Barry agrees to join him. He flies them back to meet with Diana.</p>
+                                    <p>Cyborg contacts Diana through Bruce's computer in the Batcave. They agree to meet up in an isolated location for Diana to try and convince Cyborg to join them, but he flies away before agreeing to anything.</p>
+                                    <p>In a remote region of Russia, a poor family goes about their normal business in their small house, which sits in view of an abandoned nuclear power plant. Outside they hear a noise that sounds like insect wings flapping, only much louder. The family begins to barricade themselves inside. Outside, Parademons have descended on the nuclear power plant. Inside the one of the cooling towers, Steppenwolf places the cube he'd stolen from the Amazonians in a stone monolith. Strange, thick roots suddenly emerge from the ground and spread to the surrounding area. Steppenwolf gloats that the Unity is at hand and he will take his place among the new gods and a being he calls "Darkseid".</p>
+                                    <p>On the ocean, a fisherman is caught in a terrible storm. Arthur rescues him and brings him to the tavern for some whiskey. Arthur notices a viscous green substance on his fingers. He leaves the tavern and heads back down to Atlantis. Before he arrives, however, Steppenwolf and the Parademons invade and take the second Mother Box, battling the surprised Atlanteans. Mera (Amber Heard) tries to intervene as Arthur arrives, but the Mother Box is gone. He tells her he'll need something from her before he goes after Steppenwolf.</p>
+                                    <p>Meanwhile, Police Commissioner Jim Gordon (JK Simmons) is alerted to a series of civilian kidnappings. He sends out the Bat Signal to contact Batman. Joined by Wonder Woman and Flash, and then Cyborg, Gordon tells them what has happened, showing them a sketch from a witness: Diana identifies it as a Parademon. The four head off to save the civilians.</p>
+                                    <p>Batman and his team track Steppenwolf to an island near Gotham Harbor. Steppenwolf and the Parademons are pressing their hostages for the location of the third Mother Box. One of the hostages is Silas, who had used the power of the Mother Box to revive Victor after his accident. Cyborg initiates the attack against Steppenwolf while Flash, scared at first to get involved in combat but inspired by Batman, takes Steppenwolf's hostages to safety. Flash rejoins Wonder Woman and Cyborg as they battle the Parademons while Batman uses his Nightcrawler to battle the Parademons. When Cyborg fires a missile from the Nightcrawler Steppenwolf, he easily catches it and aims it at the tunnel wall. Water from Gotham City Harbor floods in. Aquaman appears and stops the water from engulfing his allies with a five-tined fork given to him by Mara. The team escapes in the Nightcrawler.</p>
+                                    <p>Back at Bruce's home, Cyborg reveals that Star Labs was holding the Mother Box. Bruce comes up with the idea to use the Mother Box's power to revive Superman so that he may help them defeat Steppenwolf. Diana disagrees with the plan for fear that Superman may come back the way Zod came back as Doomsday. Bruce tells them he has a backup plan in case Superman becomes violent and uncontrollable after his resurrection. Despite several misgivings about the plan, they decide to give the idea a shot. Barry and Victor go to the cemetery to dig up Superman's grave.</p>
+                                    <p>The League goes to the Kryptonian ship in Metropolis with the Box and Superman's body. When Cyborg tells them the control panel is burned out, Flash devises a plan to charge the field; he'll run from a distance to build a stronger charge. It works and Superman comes back to life, immediately rocketing out of the ship, and the others go after him. They find him nearby, at his memorial that was damaged in the battle with Doomsday. He scans them with his X-ray vision while Cyborg's defense system activates on its own. He fires a blast at Superman, leading him to attack the others. The League try to defend themselves as he comes close to killing them. They are stopped when Batman's strategy for subduing the confused Superman is revealed: Lois is brought to the scene. Superman calms down and flies away with Lois. Distracted by the fight with Superman, the team doesn't realize that Steppenwolf has taken the last Mother Box from the ship.</p>
+                                    <p>Clark Kent and Lois are outside his old childhood home in Smallville. He still feels overwhelmed after being brought back to life, but Lois convinces him that the other heroes and the rest of the world need him. Moments later, Martha drives up and runs up to embrace Clark.</p>
+                                    <p>In Russia, Steppenwolf brings all the Boxes together to begin The Unity. Everything around him starts to burn and decay. More of the huge roots burst from the ground, destroying anything in their path. The League arrives to begin the final showdown. Batman will take the troop transport they flew to the site in and penetrate the energy dome that has covered the nuclear plant. He'll use the Batmobile to broadcast a tone that attracts the Parademons while his comrades fight them on their way to Steppenwolf. The League is able to kill many of them and they advance to Steppenwolf and the Motherboxes. Communicating with Alfred, Batman sends the Flash out to rescue the family from the house.</p>
+                                    <p>Cyborg tries to separate the boxes, and Steppenwolf tries to tear him apart. Just as it seems the tide of the battle with turn in Steppenwolf's favor, Superman arrives and begins to fight alongside the rest of the League. He hears the panicked voices of nearby civilians and rushes off to help them, guiding the Flash to the family that was attempting to flee the site. Flash pushes their truck to safety, and then sees Superman carrying an entire apartment building to safety.</p>
+                                    <p>Superman returns to the power plant where Cyborg has reassembled the leg Steppenwolf pulled from his body. Together, Superman and Cyborg pull the Boxes apart, stopping the transformation process. Enraged, Steppenwolf tries to finish them off himself, but Superman uses his ice breath to freeze Steppenwolf's ax, allowing Diana to shatter it with her sword. Now weakened and bewildered, the Parademons sense Steppenwolf's fear and begin to tear him apart as they are sent back to their world.</p>
+                                    <p>Later, the heroes return to their homes. Barry gets a job with the Central City forensics department and he lets a proud Henry know about it. Victor works with his father at Star Labs. Bruce and Clark visit his childhood home and see that it's being returned to Martha Kent after it was foreclosed. Bruce tells Clark he bought the bank that owned it so he could return it to them. Arthur returns to Atlantis to fulfill his role as king. Bruce, Diana, and Alfred look into an abandoned building to establish the Hall of Justice. Lois then writes an article stating that there is once again hope out there. The last thing we see is Superman flying into the sky above Metropolis.</p>
+                                    <p>Mid-Credits Scene: Superman and Flash start a race to see who is faster, with a bet placed that if Flash loses, he has to invite the others to brunch, and if he wins, he gets to tell everyone he beat Superman.</p>
+                                    <p>Post-Credits Scene: Lex Luthor (Jesse Eisenberg) has escaped prison and left a impostor in his cell. On his yacht, he is visited by Slade Wilson/Deathstroke (Joe Manganiello). Lex proposes an idea to Slade that they come up with their own little team... the Legion of Doom.</p>
+                                </div>
+                                                                  
+                        </div>
+        </div>  
+       
+    </div>
+     
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+            $('#button').click(function(){ 
+                if(!$('#iframe').length) {
+                    $('#iframeHolder').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/3cxixDgHUYw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+                                         }
+                                        });   
+                        });
+        </script>
+</body>
+</html>

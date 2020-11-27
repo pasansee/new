@@ -1,0 +1,601 @@
+<html>
+<head>
+    <title>Review: Sonic the Hedgehog</title> 
+    <meta name="viewport" content="width=device=width" initial-scale="1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" >
+         <style>
+             
+             
+                          a { text-decoration: none; }
+
+            .clearfix { overflow: auto }
+
+
+    
+            .hero-image {
+              background-image:url("videoblocks-abstract-clouds-of-colored-smoke-over-a-black-and-red-lights-on-black-background-in-studio_b_z3xwepom_thumbnail-1080_01.png");   
+              
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+            }
+
+            .hero-text {
+              text-align: center;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(50%, 50%);
+              color: white;
+            }
+
+
+            header .logo {
+                margin-top: 10px;
+                margin-left: 10px; 
+                float: left;
+            }
+
+            header.logo  { 
+                font-size: 10px;
+                font-weight: normal;
+                letter-spacing: -1px;
+                font-variant: small-caps;
+            }
+
+
+            .socialmedia { 
+                float: right; 
+                margin-top: 10px;
+                margin-right: 20px;
+            }
+
+            .socialmedia ul { 
+                list-style: none 
+            }
+
+            .socialmedia ul li { 
+                display: inline 
+            }
+
+            .socialmedia ul li a {
+                margin-left: 5px;
+                padding: 6px;
+                background: #444;
+                color: #fff;
+                display: inline-block;
+                border-radius: 20px;
+            }
+
+            .socialmedia ul li a:hover {
+                background:#00ff99 ;
+            }  
+
+
+        
+             nav {
+
+                font-size: 20px;
+                margin-top: 10px;
+                background:transparent;
+                background: linear-gradient(#009999);
+                text-align: center;
+                border-radius: 10px;
+
+                border-style: double;
+                border-width: 5px;
+            }
+
+            nav ul {
+                list-style:initial;
+            }
+
+            nav ul li {
+                display: inline;
+            }
+
+            nav ul li a {
+                color: #fff;
+                text-transform: uppercase;
+                margin: 10px 20px 10px 20px;
+                display: inline-block;
+
+            }
+
+            nav ul li a:hover {
+                color: sandybrown;
+            }
+
+             
+             
+      body{
+            background-color:black;
+            margin:0px;
+             font-family: 'Merienda One', cursive;
+            color:aqua;
+           background-image: url(BK.jpeg);
+            background-repeat: repeat-y;
+            background-size:cover;
+            border: 0px;
+            padding: 0px;
+        }
+        
+         header{
+             padding:40px;
+             text-align:left;
+             color:azure;            
+             font-size: 40px;       
+         }
+             
+        .container img {
+             width: 100%;
+             height: auto;
+            background-size: cover;
+             background-position:center;
+            background-repeat: no-repeat;
+    
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .img-text-wrapper {
+            position:absolute;
+            top:auto;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+          
+            
+        }
+        
+        .subtitle           {
+              position: absolute; 
+              top:30px;  
+              right: 80px;
+              color:greenyellow; 
+              font-weight: 600;
+              font-size: 40px;
+        }
+             
+             
+         #button {
+              position:absolute;
+              top: 100px;
+              left: 500px;
+              transform: translate(-50%, -50%);
+              background-color:transparent;
+              color:darkorchid;
+              font-size: 35px;
+              padding: 15px 40px;
+              border: none;
+              cursor:pointer;
+              border-radius: 50px;
+              text-align:right;
+              font-family: 'Merienda One', cursive;
+             
+        }
+             
+             
+             .bk {
+                 filter: brightness(80%);
+                 border-top: 100px;
+               
+             }
+             .reviews1{
+                 position: absolute;
+                 top:100px;
+                 left: 150px;
+                 color:aqua;
+                 font-size: 20px;
+                 font-weight: 600;
+             }
+             .subtitle2{
+                  position: absolute; 
+                  top:500px;  
+                  right: 80px;
+                  color:greenyellow; 
+                  font-weight: 600;
+                  font-size: 40px;
+             }
+             .reviews2{
+                 position: absolute;
+                 top:600px;
+                 left: 150px;
+                 right: 50px;
+                 color:aqua;
+                 font-size: 20px;
+                 font-weight: 600;
+             }
+             .subtitle3{
+                  position: absolute; 
+                  top:1100px;  
+                  right: 80px;
+                  color:greenyellow; 
+                  font-weight: 600;
+                  font-size: 40px;
+             }
+             .reviews3{
+                position: absolute;
+                 top:1200px;
+                 left: 150px;
+                 right: 50px;
+                 color:darkgray;
+                 font-size: 20px;
+                 font-weight: 600; 
+             }
+             
+             
+             
+                  @media screen and (max-width: 1300px) {
+                    .subtitle3{
+
+                          top:1300px;  
+                          right: 80px;
+
+                     }
+                     .reviews3{
+
+                         top:1400px;
+
+
+                     }
+
+                         .subtitle2{
+
+                          top:500px;
+            }
+                         .reviews2{
+                         top:600px;
+                         }
+}
+
+@media screen and (max-width: 1100px) {
+                    .subtitle3{
+
+                              top:1500px;  
+
+
+                         }
+                         .reviews3{
+
+                             top:1600px;
+
+
+                         }
+
+                .subtitle2{
+
+                              top:500px;
+                }
+                .reviews2{
+                             top:600px;
+                             }
+  }
+             
+@media screen and (max-width: 950px) {
+                .subtitle3{
+
+                          top:1750px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:1850px;
+
+
+                     }
+    
+                .subtitle2{
+
+                              top:600px;
+                    }
+                    .reviews2{
+                             top:700px;
+                             }
+  }
+@media screen and (max-width: 870px) {
+                    .subtitle3{
+
+                          top:1850px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2050px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:700px;
+                        }
+                        .reviews2{
+                             top:800px;
+                             }
+  }
+             
+@media screen and (max-width: 840px) {
+                    .subtitle3{
+              
+                          top:1900px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:1950px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:700px;
+                    }
+                    .reviews2{
+                             top:800px;
+                             }
+  }  
+@media screen and (max-width: 800px) {
+                        .subtitle3{
+
+                              top:2000px;  
+
+
+                         }
+                         .reviews3{
+
+                             top:2100px;
+
+
+                         }
+    
+                        .subtitle2{
+
+                              top:700px;
+                        }
+                        .reviews2{
+                             top:800px;
+                             }
+  } 
+  
+@media screen and (max-width: 750px) {
+                    .subtitle3{
+
+                          top:2200px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2300px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:800px;
+                    }
+                    .reviews2{
+                             top:900px;
+                             }
+  } 
+             
+@media screen and (max-width: 700px) {
+                    .subtitle3{
+
+                          top:2350px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2450px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:850px;
+                    }
+                    .reviews2{
+                             top:950px;
+                             }
+  } 
+             
+@media screen and (max-width: 670px) {
+                    .subtitle3{
+
+                          top:2550px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2750px;
+
+
+                     }
+  } 
+@media screen and (max-width: 640px) {
+                    .subtitle3{
+
+                          top:2750px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2850px;
+
+
+                     }
+  }
+             
+@media screen and (max-width: 600px) {
+                    .subtitle3{
+
+                          top:2950px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:3150px;
+
+
+                     }
+  } 
+@media screen and (max-width: 580px) {
+                    .subtitle3{
+
+                          top:3150px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:3250px;
+
+
+                     }
+  } 
+             
+             
+             
+             
+    </style>
+</head>
+<body>
+    
+    
+    	<div class="hero-image">
+        
+			<div class="logo"><a href="index.html">
+                <img src= "icone.jpeg" alt="logo" width="200" ></a>
+            </div> <!-- logo -->
+
+			
+        
+               <div>
+
+                 <nav > 
+
+                     <ul class="double">
+                           <li><a href="index.html">Home</a></li>
+                            <li><a href="Movies.html">Movies </a></li>
+                            <li><a href="theater.html">Theaters</a></li>
+
+                            <li><a href="Blog page.html">Blog</a></li>
+                            <li><a href="buy ticket.html">Buy Move Tickets</a></li>
+                            <li><a href="login.php">Log In</a></li>
+                     </ul>
+                </nav>
+
+            </div>
+
+            <div>
+                <div class="socialmedia">
+                        <ul>
+                            <li><a href="https://www.facebook.com/vitaliagarden/"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram  fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-snapchat fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus fa-fw" aria-hidden="true"></i></a></li>
+                        </ul>
+                </div> <!-- socialmedia -->
+            </div>
+                
+	
+    </div> 
+    
+    
+   <header>Big Screen-Blog</header>
+    
+    <div class="container">
+        <div class="img-text-wrapper">
+            <img src="sonic2.jpg" >
+                <div class="subtitle">
+                        Review: Sonic the Hedgehog
+                        <div id="iframeHolder">
+                            <button id="button">trailer</button>
+                        </div>
+                 </div>
+                        <div class="bk"> 
+                            
+                                <div class="subtitle"> MOVIE DETAILS</div>
+                            
+                                     <div class="reviews1">
+                                            <ul>
+                                                <li>In theaters: February 14, 2020</li>
+                                                <li>On DVD or streaming: May 19, 2020</li>
+                                                <li>Cast: Jim Carrey, James Marsden, Adam Pally, Ben Schwartz</li>
+                                                <li>Director: Jeff Fowler</li>
+                                                <li>Studio: Paramount Pictures</li>
+                                                <li>Genre: Family and Kids</li>
+                                                <li>Topics: Adventures, Space and Aliens</li>
+                                                <li>Run time: 100 minutes</li>
+                                                <li>MPAA rating: PG</li>
+                                                <li>MPAA explanation: action, some violence, rude humor and brief mild language.</li>
+                                                <li>Last updated: October 30, 2020</li>
+                                                
+                                            </ul>
+                                         
+                                    </div>  
+                            <div class="subtitle2">IS IT ANY GOOD?</div>
+                                <div class="reviews2">
+                                    <p>Watching Carrey is an absolute delight; his comedic genius exudes more wattage than Sonic's moments of heated emotion -- and Sonic's outbursts cause power outages. Why did it take Hollywood so long to make Carrey a handlebar-mustachioed villain? His Dr. Robotnik is reminiscent of the over-the-top silly characters he famously created in movies like The Mask, Dumb and Dumber, and Ace Ventura: Pet Detective. Carrey's performance helps take Sonic the Hedgehog to levels of laughing you never expected. The best moment of all is when Robotnik does his Dance of Anarchy. Please, sir, may I have some more?</p>
+                                    <p>But as great as Carrey is, this is the story of Sonic, an animated alien hedgehog who's sent to Earth alone for his own safety. He's warned that if anyone sees him, they'll try to capture him for his special powers. So he settles in Green Hills, Montana, and watches those in the small town from the shadows with a wistfulness. Really, Sonic is like a little kid: He loves fart jokes, he can't keep quiet, he's (literally) bouncing off the walls, and he just wants a friend. It's a theme every kid can appreciate. Even if they don't relate to being alone, they can relate to being bored. As Tom, Marsden is a perfect companion to Sonic, popping off "dad jokes" and expressing his love for Olive Garden (the latter screams "product placement," but at least it's funny). The duo's evolving dynamic -- buddies, but really best friends, but really guardian and child, but really father and son -- make Sonic the Hedgehog a laugh-until-you-turn-blue fun film for the family to enjoy together.</p>
+                            </div>   
+                                    
+                            <div class="subtitle3">WHAT'S THE STORY?</div>
+                                <div class="reviews3"><p>In San Francisco, California, a seemingly normal day is interrupted by a shocking spectacle: an anthropomorphic hedgehog with blue fur, white gloves and red shoes is running through the city at breathtaking speed while a flying machine piloted by a mustached scientist dressed in red gives chase and fires explosive energy blasts!</p>
+                                <p>In the middle of the chase, there is a pause as the hedgehog, named Sonic, begins to narrate what is currently happening and rewinds to the very beginning.</p>
+                                <p>Sonic recalls his childhood days living on a beautiful island with palm trees, waterfalls, and even loop-de-loops made of earth. He recalls running joyously across the island every day, relishing in life and making full, open use of his natural-born powers despite being told to keep them secret.</p>
+                                <p>The toddler Sonic rushes home to the treehouse where his doting surrogate mother, Longclaw the Owl is resting, and playfully bumps into her to wake her up. Longclaw warns Sonic that he might have been noticed because of his coveted powers, and sure enough, as Sonic affectionately presents a sunflower to her, they are ambushed by a tribe of echidna archers. Longclaw desperately flies away with Sonic, only for one of the echidnas to fire his arrow and successfully strike her, causing her to plummet to the ground with Sonic still clinging to her. Though injured, Longclaw reminds Sonic of the importance of keeping himself and his powers hidden, and uses a golden ring to open a portal to a world on the far side of the universe, called Earth. She gives the rest of the rings to Sonic in a small bag and tells him to flee to Earth, where he will be safe. The reluctant Sonic runs through the portal while Longclaw stays behind to hold off the approaching echidnas. Seeing her in danger, Sonic desperately runs back to try to save her, but the portal closes just before he can reach her, leaving Sonic heartbroken and alone.</p>
+                                <p>Ten years later, Sonic has adjusted to life on Earth. Tom Wachowski, the local sheriff of Green Hills, Montana, is sitting bored in the empty speed trap, waiting for cars, and Sonic playfully messes with him by zipping past his radar gun at ridiculous speeds. Tom discovers one of Sonic's blue quills lying in the long grass and brings it with him as he is called away by his deputy, Wade to address a minor issue. Sonic saves a turtle from being run over by an approaching car and takes the excited reptile for a wild ride before leaving it and zipping back to his hidden cave of a makeshift home. Sonic seems to love his life, since he has great fun with the discarded items he uses to occupy himself, and feels safe since he knows what to do if he is ever discovered. Should he ever be found, he'll escape to one of the worlds depicted on a map included in the bag of rings; an uninhabited world full of giant mushrooms. He hates the idea, but he is not worried, since Green Hills feels like a home to him. He frequents the town every day and secretly observes the people, his favorite of whom is Tom (or "Donut Lord," as he calls him). He also likes Tom's veterinarian wife Maddie, whom he nicknames "Pretzel Lady" for her yoga flexibility. He also likes to mess with old, eccentric Crazy Carl, the only person in town who actually knows about him and who is constantly trying in vain to catch him. Having formed a strong bond with Tom and Maddie from afar, Sonic often hangs out around their house, especially on movie nights. But even with this fun place and all of these so-called "friends" of his, Sonic still feels very lonely in his self-imposed isolation.</p>
+                                <p>After coming home one night to find raccoons in his trash can, Tom receives from Maddie his long-awaited letter of acceptance into the San Francisco Police Department, and the two discuss the difficult decision to move away from Green Hills. The next day, as Tom recites his departure speech to a donut, Sonic observes the local youth baseball playoffs. That night, Sonic goes into the vacant baseball field and plays by himself, using his speed to assume the roles of all the players. He manages to make a perfect play and rejoices, but when he looks around and sees that no one is there to cheer him on, he realizes he is truly alone forever. In his despair, he tries to work off the pain by running desperately around the field, until the energy emitting from his body generates a massive electromagnetic pulse that knocks out power across the entire Pacific Northwest. With the entire town in the dark, the panicking Wade contacts Tom, who gives him instructions but ends the call prematurely when he sees the quill he discovered earlier glowing with electric, blue light.</p>
+                                <p>News of the event soon reaches the Pentagon, and the baffled Department of Defense enlists the help of brilliant roboticist and scientific genius, Dr. Robotnik to discover the cause. After Robotnik and his partner, Agent Stone take charge of the military detachment stationed at the baseball field, Robotnik's flying, high-tech, egg-shaped drones head into the forest and discover one of Sonic's footprints. Robotnik discovers that his computer can't find a single match in Earth's animal kingdom to identify the creature responsible for the print. As the military troops and the drones search the forest for Sonic, Sonic rushes back to his cave to collect his valuables and prepares to leave Earth forever. But just before he can use the rings, the troops and drones draw close to his cave and Sonic flees to avoid them, sentimentally bidding goodbye to his cave.</p>
+                                <p>Meanwhile, Tom is on the phone with Maddie, who has flown out to San Francisco to visit her sister, Rachel and niece, Jojo. As Tom tells Maddie about the blackout, he hears a disturbance and sees his trash can toppled over. Thinking the raccoons are back, Tom takes Maddie's tranquilizer gun and goes out to investigate the shed. Inside the shed, Sonic prepares to use his ring, but just before he can, Tom bursts into the shed and sees him. Both of them scream in terror at the sight of each other, and Tom fires a dart into Sonic's leg. The weakening Sonic sees a picture of San Francisco's Transamerica Pyramid on Tom's T-shirt, and as he drops his ring, it opens a portal above the actual building itself. Sonic accidentally drops the bag of rings into the portal, and it lands on the building's roof. The portal thusly closes as Sonic passes out, and Tom brings Sonic inside, placing him in a dog cage.</p>
+                                <p>Tom examines Sonic and realizes he is Crazy Carl's "Blue Devil." Sonic awakens and climbs out of the cage, and the two finally meet for real just as Robotnik's truck arrives. Sonic begs for Tom's help and Tom hides Sonic in the attic as he goes out to meet Robotnik, who dispatches his drones to search the house while the two talk outside. Sonic hides from the drones and curls up into a ball to hide among the various sports balls stored in the attic, but when the drones get too close, Sonic flees the attic and causes a noise. Robotnik barges into the house to find only a raccoon eating a cake that Maddie baked for Tom. As he turns to leave, however, he discovers the quill. As Robotnik threatens Tom to reveal where Sonic is, Sonic shows himself and begs Robotnik to spare Tom, eliciting a terrified scream from Robotnik. Seizing the opportunity, Tom punches Robotnik and knocks him out cold, and after a battle in the house with one of Robotnik's drones, Tom and Sonic escape the house. Agent Stone arrives to check on Robotnik, who berates Stone for not trying to stop the fugitives and tells him to bring the quill.</p>
+                                <p>With Tom and Sonic now on the run, Tom asks Sonic to explain himself, and Sonic says that he needs to get to San Francisco so he can get back his lost rings. At first, Tom tells Sonic to go himself, but Sonic doesn't know where San Francisco is, and following Tom's directions to simply head west only causes him to crash straight into the Pacific and run back to Tom wet, cold, covered in seaweed, and wearing a fish. Sonic blames Tom for his fate and insists he can't accomplish his goal alone. Reluctantly, Tom agrees to take Sonic with him to San Francisco.</p>
+                                <p>As the two begin their travels, Sonic treats the journey as a fun road trip, admiring the attractions along the way, such as the world's largest rubber band ball. That night, they stop in a certain section of town and Tom tells Sonic to stay in the car as he uses a nearby payphone to call Wade, who reveals that Robotnik and his agents are searching for Tom, and are with him in the station. Furious at having been punched in the face, Robotnik warns Tom that he is coming for him. Meanwhile, Sonic tries desperately to control his excitement over an extremely entertaining-looking biker bar, but eventually caves in. Tom comes back to his car with a purchased meal, only to find Sonic missing. He finds Sonic in the bar and Sonic persuades him to stay and have fun with him. Sonic compiles a "bucket list" of the things he'd like to do on Earth, but becomes sad when he realizes he might not be able to do them since he has to leave Earth soon. But Tom encourages Sonic to try to do as much as he can right where they are, and the two take a while to enjoy themselves with all the bar's activities. Unfortunately, a group of rough-looking punks come looking for trouble and Sonic aggravates their leader, starting a bar fight. The leader of the punks attacks Sonic, but Sonic speeds up his awareness and runs around the bar, saving Tom from attackers and setting up sassy pranks and traps to end the fight, all in the span of the single moment before the punk leader can reach him. The fight is ended abruptly by Sonic's devices and the punk leader crashes through the window wearing a wall-mounted bear head. Tom and Sonic flee the bar, outrunning the angry patrons, and spend the night in a local motel.</p>
+                                <p>After Sonic runs around the room enjoying himself with various activities, Tom asks him about this other planet to which he must go when he leaves Earth. Sonic reveals that it's a very unenviable place and wonders aloud about whether Longclaw might have been wrong. He ponders having a life on Earth and soon falls asleep. As Tom tucks him in, he sees that one of the items on Sonic's bucket list is to "make a real friend." At that moment, the news report features a warning about Tom, who has been declared a domestic terrorist because of his actions in protecting Sonic from Robotnik and the military.</p>
+                                <p>The next morning, Robotnik and Stone interrogate the bar patrons, including the punk leader, learning that Tom and Sonic are heading to San Francisco. Robotnik triangulates their location and gives chase. On the road, Sonic asks Tom about what he would have on his own bucket list. Tom reveals his intentions to leave Green Hills to become a San Francisco street cop and prove himself as a hero, but Sonic is baffled by the fact that Tom would want to leave such a perfect town and all the people he cares about. Robotnik finds them and sends out a battle machine called Mayhem. A battle on the road ensues, with Tom and Sonic defeating each of the machine's smaller phases, though the car is badly damaged in the fight. Eventually, Sonic finds himself with a bomb stuck to his hand, and they pull off the road to get rid of it. But just when Sonic manages to get it off, it explodes, knocking Sonic out cold.</p>
+                                <p>Tom is relieved to find that Sonic is alive, but Robotnik is enraged, and berates Stone for sympathizing with them. At that moment, however, Robotnik finds that the quill in Stone's pocket is glowing with blue, electric light.</p>
+                                <p>Finally reaching San Francisco, Tom rushes to Maddie's house, only to be greeted by a fiercely antagonistic Rachel, who has seen the news reports on him and refuses to let him in until Maddie intervenes. Jojo and Tom's dog, Ozzy come to greet him, and as Rachel and Maddie argue about Tom, Ozzy pulls away the towel in which Tom has wrapped Sonic, revealing him. Rachel faints at the sight and Maddie and Jojo just stare.</p>
+                                <p>Robotnik, meanwhile, analyzes the quill and the energy it contains whilst amusing himself by dancing to a tune, until he is startled half to death by the sudden appearance of Agent Stone, who has come to offer a latte. At that moment, the machine finishes analyzing the quill, revealing it to contain unlimited energy, which Robotnik believes can enable his machines to reach their full potential.</p>
+                                <p>Tom and Maddie tend to the injured Sonic, while Rachel sits bound in a chair. Maddie uses smelling salts to awaken Sonic, who zips around the room at breathtaking speed before frantically coming to grips with his surroundings and enthusiastically greeting Pretzel Lady. The terrified Maddie asks Tom who and what Sonic is, and Tom reveals the truth of their adventures together and Sonic's intent to reach the Transamerica Pyramid. Jojo brings Sonic a new pair of bright, red shoes, to which he takes an instant liking. Sonic also meets Ozzy, of whom he is jealous, but from whom he enjoys an affectionate face-licking.</p>
+                                <p>Tom and Maddie borrow the indignant Rachel's car and head with Sonic to the Transamerica Pyramid, where Tom uses the false pretense of saving a jumper to gain the needed clearance to travel to the roof. Tom and Maddie carry Sonic inside a bag, eliciting grave concern from onlookers who believe that the pair are carrying an abducted child. The three finally reach the roof, where Sonic at last finds and retrieves his bag of rings. After an emotional goodbye between Sonic and Tom, Sonic attempts to throw a ring to open the portal, but it bounces off of one of Robotnik's drones. Many more drones surround the three and Robotnik himself appears in his own flying craft to meet them. After a brief exchange between Robotnik and Tom, Sonic taunts Robotnik by calling him "Eggman" after his egg-shaped drones. Robotnik readies his drones to blow the three away, but Sonic pushes Tom and Maddie off the top of the building. Robotnik fires his missiles at Sonic, who speeds up his awareness to avoid them and casually pushes them aside. But Robotnik is able to press a button that charges his vehicle with energy from the quill, and achieves supersonic speed. He fires a blast which Sonic only narrowly avoids, and which knocks him into momentary delirium. Sonic awakes to find Tom and Maddie still falling. He grabs one of the rings falling with him and throws it, opening a portal beneath them that transports the two back to Green Hills. Tom and Maddie end up in a farmer's barn, while back in San Francisco, Sonic lands in a tree before crashing to the ground, along with the rest of the rings and Robotnik's destroyed drones. Meanwhile, the owner of the barn greets Tom and Maddie, asking for their help in aiding a cow's effort to give birth.</p>
+                                <p>Robotnik corners Sonic and taunts him, but Sonic gathers up his spilled rings and runs through the city as Robotnik gives chase in his vehicle. Narrating again, Sonic notes how this has brought the film full circle, and earnestly continues the story, wanting to know what happens next just as much as the audience. Robotnik chases Sonic through San Francisco, and Sonic is shocked by Robotnik's ability to keep up with him. Sonic opens a portal to France, with him and Robotnik disrupting a mime act being performed for a young girl as they rush past. Sonic's next ring portal brings him and Robotnik to China, where Robotnik chases Sonic along the Great Wall. Next, Sonic opens a portal to Egypt, where Robotnik destroys many centuries-old monuments in his zeal to catch Sonic. Sonic uses his speed to create a sand whirlwind that temporarily disrupts Robotnik's visual contact, but Robotnik sees Sonic running up the side of one of the Great Pyramids and follows him to the top, firing a blast just as Sonic manages to open another portal ring.</p>
+                                <p>The portal brings Sonic back to Green Hills, now at night, but the blast sends him hurtling through the ring and into the street, where he lays motionless. Robotnik's vehicle emerges through the portal and the terrified onlookers flee. Robotnik prepares to kill Sonic, but Tom engages him in physical combat inside the open cockpit of his vehicle. Unfortunately, Tom is knocked out of the cockpit and Robotnik questions why Tom would be willing to throw his life away for a "silly little alien." The locals come to defend Tom, but Sonic remains motionless and silent. Robotnik suggests putting the body on ice to keep it fresh and remarks that Sonic was just an alien who didn't belong. Tom responds by telling Robotnik that Sonic knew more about being human than he ever will, proclaiming him to have been his friend, which wakes Sonic up from his wounded daze. Fueled by passion, Sonic charges up with incredible energy and boldly proclaims to Robotnik that he will no longer run away, but use the power which is rightfully his to protect his friends. Robotnik pulls down his goggles and the two opponents prepare to meet in full-on battle. Robotnik fires his missiles, but Sonic avoids them and bounces off the buildings to strike Robotnik's vehicle with an increasingly rapid barrage of body-slams. With the vehicle severely damaged, but still afloat, Sonic calls for Tom to open a portal to the mushroom planet behind Robotnik. Then, at last, Sonic dashes straight at Robotnik's vehicle and strikes it with enough force to send it flying backwards through the portal to the mushroom planet just as the portal closes.</p>
+                                <p>Tom and Sonic reunite and Tom gives Sonic back his rings, as well as a high-five: a gift desired by Sonic ever since his having seen a young baseball batter high-five his teammates. Tom tells Maddie that he has decided not to leave Green Hills, feeling that he has already saved a life. As the crowd disperses, Sonic follows Tom and Maddie.</p>
+                                <p>The next day, as Tom and Maddie are repairing and repainting their house, one of the officials from the Pentagon comes to thank Tom for defeating Robotnik, and to inform him that his guilt has been erased, along with all records of Robotnik's existence. As a bonus, he presents Tom with an Olive Garden gift card and asks if Sonic might be willing to talk to the President, but Tom falsely claims that Sonic has left so as to spare him that. After the official leaves, Sonic asks if they'd like to see a movie, but Maddie tells him that it's time to go back to his cave. However, when Sonic tries to go, they tell him that they meant something else. Opening the attic door, Tom and Maddie show Sonic his new room, which he is astonished to find contains all of his belongings. Overcome with joy, Sonic runs around and relishes in having his things back. Tom and Maddie sit with Sonic on the bed and welcome him home, and Sonic gives them heartfelt thanks. As the view zooms out and away from the house, Ozzy comes to lick Sonic again, with Sonic still jealous but enjoying the licking.</p>
+                                <p>Meanwhile, on the mushroom planet, Robotnik has completely lost his sanity. As he finishes shaving himself totally bald, he gazes at his reflection in a pool of water, now with an extremely long, grown-out mustache that looks completely zany. Talking to a rock that he has carved to resemble Agent Stone, he throws it and tells it to perform "rock-connaissance" for him. He reflects on his situation and remarks that a lesser man would die in such a place. But then, he holds up a small container with the quill inside it, and says that he'll be home by Christmas. Pulling down his goggles, he walks like a robot until he finds the stone, which he throws again as he yells out "rock-connaissance" once more and laughs maniacally.</p>
+                                <p>A mid-credits scene shows forested hills, and on one hill, the leaves stir as a ring portal opens. From it emerges a young, orange fox with two tails, who uses a small handheld device to determine from the present levels of energy whether Sonic might be near. Finding the readings to be sufficient, the young fox hopes aloud that he is not too late to find him and uses his twin tails like helicopter blades to take off flying into the vast forest.</p>
+                                </div>
+                                                                  
+                        </div>
+        </div>  
+       
+    </div>
+     
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+            $('#button').click(function(){ 
+                if(!$('#iframe').length) {
+                    $('#iframeHolder').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/szby7ZHLnkA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+                                         }
+                                        });   
+                        });
+        </script>
+</body>
+</html>

@@ -1,0 +1,601 @@
+<html>
+<head>
+    <title>Review: Captain Marvel</title> 
+    <meta name="viewport" content="width=device=width" initial-scale="1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" >
+         <style>
+             
+             
+                          a { text-decoration: none; }
+
+            .clearfix { overflow: auto }
+
+
+    
+            .hero-image {
+              background-image:url("videoblocks-abstract-clouds-of-colored-smoke-over-a-black-and-red-lights-on-black-background-in-studio_b_z3xwepom_thumbnail-1080_01.png");   
+              
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+            }
+
+            .hero-text {
+              text-align: center;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(50%, 50%);
+              color: white;
+            }
+
+
+            header .logo {
+                margin-top: 10px;
+                margin-left: 10px; 
+                float: left;
+            }
+
+            header.logo  { 
+                font-size: 10px;
+                font-weight: normal;
+                letter-spacing: -1px;
+                font-variant: small-caps;
+            }
+
+
+            .socialmedia { 
+                float: right; 
+                margin-top: 10px;
+                margin-right: 20px;
+            }
+
+            .socialmedia ul { 
+                list-style: none 
+            }
+
+            .socialmedia ul li { 
+                display: inline 
+            }
+
+            .socialmedia ul li a {
+                margin-left: 5px;
+                padding: 6px;
+                background: #444;
+                color: #fff;
+                display: inline-block;
+                border-radius: 20px;
+            }
+
+            .socialmedia ul li a:hover {
+                background:#00ff99 ;
+            }  
+
+
+        
+             nav {
+
+                font-size: 20px;
+                margin-top: 10px;
+                background:transparent;
+                background: linear-gradient(#009999);
+                text-align: center;
+                border-radius: 10px;
+
+                border-style: double;
+                border-width: 5px;
+            }
+
+            nav ul {
+                list-style:initial;
+            }
+
+            nav ul li {
+                display: inline;
+            }
+
+            nav ul li a {
+                color: #fff;
+                text-transform: uppercase;
+                margin: 10px 20px 10px 20px;
+                display: inline-block;
+
+            }
+
+            nav ul li a:hover {
+                color: sandybrown;
+            }
+
+             
+             
+        body{
+            background-color:black;
+            margin:0px;
+             font-family: 'Merienda One', cursive;
+            color:aqua;
+           background-image: url(BK.jpeg);
+            background-repeat: repeat-y;
+            background-size:cover;
+            border: 0px;
+            padding: 0px;
+        }
+        
+         header{
+             padding:60px;
+             text-align:left;
+             color:azure;
+             
+             font-size: 40px;
+                 
+         }
+             
+        .container img {
+             width: 100%;
+             height: auto;
+            background-size: cover;
+             background-position:center;
+            background-repeat: no-repeat;
+    
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .img-text-wrapper {
+            position:absolute;
+            top:auto;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+          
+            
+        }
+        
+        .subtitle           {
+              position: absolute; 
+              top:30px;  
+              right: 80px;
+              color:greenyellow; 
+              font-weight: 600;
+              font-size: 40px;
+        }
+             
+             
+         #button {
+              position:absolute;
+              top: 100px;
+              left: 390px;
+              transform: translate(-50%, -50%);
+              background-color:transparent;
+              color:greenyellow;
+              font-size: 35px;
+              padding: 15px 40px;
+              border: none;
+              cursor:pointer;
+              border-radius: 50px;
+              text-align:right;
+              font-family: 'Merienda One', cursive;
+             
+        }
+             
+             
+             .bk {
+                 filter: brightness(80%);
+                 border-top: 100px;
+               
+             }
+             .reviews1{
+                 position: absolute;
+                 top:100px;
+                 left: 150px;
+                 color:aqua;
+                 font-size: 20px;
+                 font-weight: 600;
+             }
+             .subtitle2{
+                  position: absolute; 
+                  top:500px;  
+                  right: 80px;
+                  color:greenyellow; 
+                  font-weight: 600;
+                  font-size: 40px;
+             }
+             .reviews2{
+                 position: absolute;
+                 top:600px;
+                 left: 150px;
+                 right: 50px;
+                 color:aqua;
+                 font-size: 20px;
+                 font-weight: 600;
+             }
+             .subtitle3{
+                  position: absolute; 
+                  top:1100px;  
+                  right: 80px;
+                  color:greenyellow; 
+                  font-weight: 600;
+                  font-size: 40px;
+             }
+             .reviews3{
+                position: absolute;
+                 top:1200px;
+                 left: 150px;
+                 right: 50px;
+                 color:darkgray;
+                 font-size: 20px;
+                 font-weight: 600; 
+             }
+             
+             
+                  @media screen and (max-width: 1300px) {
+                    .subtitle3{
+
+                          top:1300px;  
+                          right: 80px;
+
+                     }
+                     .reviews3{
+
+                         top:1400px;
+
+
+                     }
+
+                         .subtitle2{
+
+                          top:600px;
+            }
+                         .reviews2{
+                         top:700px;
+                         }
+}
+
+@media screen and (max-width: 1100px) {
+                    .subtitle3{
+
+                              top:1400px;  
+
+
+                         }
+                         .reviews3{
+
+                             top:1500px;
+
+
+                         }
+
+                .subtitle2{
+
+                              top:600px;
+                }
+                .reviews2{
+                             top:700px;
+                             }
+  }
+             
+@media screen and (max-width: 950px) {
+                .subtitle3{
+
+                          top:1550px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:1650px;
+
+
+                     }
+    
+                .subtitle2{
+
+                              top:600px;
+                    }
+                    .reviews2{
+                             top:700px;
+                             }
+  }
+@media screen and (max-width: 870px) {
+                    .subtitle3{
+
+                          top:1650px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:1750px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:700px;
+                        }
+                        .reviews2{
+                             top:800px;
+                             }
+  }
+             
+@media screen and (max-width: 840px) {
+                    .subtitle3{
+              
+                          top:1750px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:1850px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:700px;
+                    }
+                    .reviews2{
+                             top:800px;
+                             }
+  }  
+@media screen and (max-width: 800px) {
+                        .subtitle3{
+
+                              top:1800px;  
+
+
+                         }
+                         .reviews3{
+
+                             top:1900px;
+
+
+                         }
+    
+                        .subtitle2{
+
+                              top:700px;
+                        }
+                        .reviews2{
+                             top:800px;
+                             }
+  } 
+  
+@media screen and (max-width: 750px) {
+                    .subtitle3{
+
+                          top:1900px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2000px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:800px;
+                    }
+                    .reviews2{
+                             top:900px;
+                             }
+  } 
+             
+@media screen and (max-width: 700px) {
+                    .subtitle3{
+
+                          top:2100px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2200px;
+
+
+                     }
+    
+                    .subtitle2{
+
+                              top:850px;
+                    }
+                    .reviews2{
+                             top:950px;
+                             }
+  } 
+             
+@media screen and (max-width: 670px) {
+                    .subtitle3{
+
+                          top:2250px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2350px;
+
+
+                     }
+  } 
+@media screen and (max-width: 640px) {
+                    .subtitle3{
+
+                          top:2250px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2350px;
+
+
+                     }
+  }
+             
+@media screen and (max-width: 600px) {
+                    .subtitle3{
+
+                          top:2350px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2450px;
+
+
+                     }
+  } 
+@media screen and (max-width: 580px) {
+                    .subtitle3{
+
+                          top:2450px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2550px;
+
+
+                     }
+  } 
+             
+  @media screen and (max-width: 550px) {
+                    .subtitle3{
+
+                          top:2650px;  
+
+
+                     }
+                     .reviews3{
+
+                         top:2750px;
+
+
+                     }
+  }            
+    </style>
+</head>
+<body>
+    
+    
+    	<div class="hero-image">
+        
+			<div class="logo"><a href="index.html">
+                <img src= "icone.jpeg" alt="logo" width="200" ></a>
+            </div> <!-- logo -->
+
+			
+        
+               <div>
+
+                 <nav > 
+
+                     <ul class="double">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Movies.html">Movies </a></li>
+                            <li><a href="theater.html">Theaters</a></li>
+
+                            <li><a href="Blog page.html">Blog</a></li>
+                            <li><a href="buy ticket.html">Buy Move Tickets</a></li>
+                            <li><a href="login.php">Log In</a></li>
+                     </ul>
+                </nav>
+
+            </div>
+
+            <div>
+                <div class="socialmedia">
+                        <ul>
+                            <li><a href="https://www.facebook.com/vitaliagarden/"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram  fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-snapchat fa-fw" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus fa-fw" aria-hidden="true"></i></a></li>
+                        </ul>
+                </div> <!-- socialmedia -->
+            </div>
+                
+	
+    </div> 
+    
+    
+   <header>Big Screen-Blog</header>
+    
+    <div class="container">
+        <div class="img-text-wrapper">
+            <img src="Captain%20Marvel%202.jpg">
+                <div class="subtitle">
+                        Review: Captain Marvel
+                        <div id="iframeHolder">
+                            <button id="button">trailer</button>
+                        </div>
+                 </div>
+                        <div class="bk"> 
+                            
+                                <div class="subtitle"> MOVIE DETAILS</div>
+                            
+                                     <div class="reviews1">
+                                            <ul>
+                                                <li>In theaters: March 8, 2019</li>
+                                                <li>On DVD or streaming: June 11, 2019</li>
+                                                <li>Cast: Brie Larson, Gemma Chan, Jude Law</li>
+                                                <li>Directors: Anna Boden, Ryan Fleck</li>
+                                                <li>Studio: Walt Disney Studios Motion Pictures</li>
+                                                <li>Genre: Action/Adventure</li>
+                                                <li>Topics: Superheroes, Adventures, Friendship, Great Girl Role Models, Space and Aliens</li>
+                                                <li>Character strengths: Courage, Integrity, Perseverance</li>
+                                                <li>Run time: 124 minutes</li>
+                                                <li>MPAA rating: PG-13</li>
+                                                <li>MPAA explanation: sequences of sci-fi violence and action, and brief suggestive language</li>
+                                                <li>Awards/Honors: Common Sense Selection</li>
+                                                <li>Last updated: December 4, 2019</li>
+                                                
+                                            </ul>
+                                         
+                                    </div>  
+                            <div class="subtitle2">IS IT ANY GOOD?</div>
+                                <div class="reviews2">
+                                    <p>This superhero flick is basic but still engrossing, enthralling, and rewarding on many levels, just one of which is seeing Marvel's first female superhero get her own movie. Captain Marvel is fairly paint-by-the-numbers, but that doesn't lessen its powerful impact. It's an Avengers origin story as well as a story of Captain Marvel herself, which doubles the glee, especially the introduction of a young Nick Fury. While each Avengers movie is funnier than the last, Captain Marvel returns to Captain America-level humor, while keeping the themes simple and the action frequent. One of the Avengers franchise's strongest story elements has been encouraging audiences to look at a situation from both perspectives -- this film continues in that tradition by embracing a perspective shift.</p>
+                                    <p>Carol Danvers is an ideal female heroine: She's Katniss Everdeen without the self-doubt, Wonder Woman without the sexualization, and Black Widow without the moral complexity. With an everywoman charm, Larson quickly convinces viewers that she's the right woman to be Marvel's most powerful superhero: Girls everywhere can see themselves in her. And, by the way, there's no reason boys can't as well. The most amazing feat of the film is that Larson's character is somewhat gender-neutral: Viewers won't necessarily think "wow, that's a WOMAN landing those punches" -- instead, they're likely to think "wow, what a great superhero." </p>
+                            </div>   
+                                    
+                            <div class="subtitle3">WHAT'S THE STORY?</div>
+                                <div class="reviews3">
+                                    <p>In 1995, on the Kree Empire's capital planet of Hala, warrior and Starforce member Vers suffers from recurring nightmares involving an older woman. Yon-Rogg, her mentor and commander, warns her to control her abilities while the Supreme Intelligence, an organic artificial intelligence who acts as the ruler of the Kree, urges her to keep her emotions in check.</p>
+                                    <p>While working with official Ronan the Accuser to rescue an undercover spy, Vers is abducted and subjected to a memory probe by a group of Skrulls, alien shapeshifters with whom the Kree Empire is at war. Vers escapes and, after leaving the Skrulls' ship in an escape pod, crash lands on Earth. Her presence attracts the attention of S.H.I.E.L.D. agents Nick Fury and Phil Coulson, whose investigation is interrupted by a Skrull attack. In the ensuing chase, Vers recovers a crystal containing her memories and Fury kills a Skrull impersonating Coulson. Fury later meets and agrees to work with Vers while Skrull commander Talos disguises himself as S.H.I.E.L.D. operative Keller.</p>
+                                    <p>Using Fury's security clearance, Vers learns she was a pilot who is presumed to have died six years earlier while testing an experimental light-speed engine designed by scientist Wendy Lawson, who she recognizes as the woman from her nightmares. The two escape after "Keller" confronts them, with Lawson's cat Goose stowing away, and pilot a small cargo jet to Louisiana. A meeting with felllow pilot Maria Rambeau and her young daughter Monica reveals Vers' real name is Carol Danvers.</p>
+                                    <p>Talos, who had tracked her, arrives and asks to speak. Using the black-box recorder of Lawson's crashed plane, Danvers learns an alien spaceship had shot it down - and she now remembers Yon-Rogg killing Lawson, as well as Lawson's warning that the experimental engine's energy-core had to be destroyed to keep it from the wrong hands. Vers shot it and was caught in an ensuing explosion, with her body absorbing the energy. Yon-Rogg brought the amnesiac "Vers" - the remaining portion of "Danvers" on her broken dog tag - to Hala.</p>
+                                    <p>Talos explains the Skrulls are simply refugees, and Lawson's engine was to help them escape beyond Kree reach. Using coordinates Lawson had given Danvers, she, along with Fury, Monica, and Goose - who for some reason terrifies Talos - fly their Skrull-modified cargo jet to a cloaked ship in orbit. There they find the source of the energy-core's power, the Tesseract - and some Skrull refugees, including Talos' mate and child. Yon-Rogg's Starforce, having tracked them, captures Danvers and places her in VR before the Supreme Intelligence. Enraged at being used, Danvers fights back, and discovers that a Kree implant that purportedly gave her Kree powers was instead limiting them.</p>
+                                    <p>Accessing her full force, Danvers escapes, gives the Tesseract to Fury for safekeeping, and battles the Starforce to give Rambeau time to fly herself, Fury, and the Skrulls to Earth - along with Goose, who is not a cat but an alien known as a Flerken that can sprout powerful tentacles and whose insides are a pocket dimension where the Tesseract is placed. Rambeau shoots down a pursuing Minn-Erva. Danvers chases an escaping Yon-Rogg and discovers the extent of her powers, including flight. She singlehandedly destroys multiple ballistic missiles that Ronan, called in by Yon-Rogg, has fired at Earth, and forces Ronan's forces to retreat. On Earth, Danvers quickly defeats Yon-Rogg and sends him back to Hala with a warning to the Supreme Intelligence.</p>
+                                    <p>Danvers agrees to help the Skrulls find a new homeworld, giving Fury a modified pager with which to contact her in an emergency. Fury later drafts a proposal for an initiative, changing the name after finding a photo with Danvers' old call sign of "Avenger".</p>
+                                    <p>In a present-day mid-credits scene, Danvers meets Avengers Steve Rogers, Natasha Romanoff, Bruce Banner, and James Rhodes, who were monitoring the pager Fury had activated. In an end-credits flashback, Goose coughs up the Tesseract.</p>
+                                    
+                                </div>
+                                                                  
+                        </div>
+        </div>  
+       
+    </div>
+     
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+            $('#button').click(function(){ 
+                if(!$('#iframe').length) {
+                    $('#iframeHolder').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/Z1BCujX3pw8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+                                         }
+                                        });   
+                        });
+        </script>
+</body>
+</html>

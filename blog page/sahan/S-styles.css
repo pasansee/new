@@ -1,0 +1,187 @@
+body{
+             background-color:black;
+            margin:0px;
+             font-family: 'Merienda One', cursive;
+            color:aqua;
+           background-image: url(BK.jpeg );
+            background-repeat:no-repeat;
+            background-size:1520px;
+            border: 0px;
+            padding: 0px;
+        }
+        
+         .header{
+             padding:10px;
+             text-align:left;
+             color:azure;            
+             font-size: 20px;       
+         }
+
+        .portfolio-items-wrapper {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        .portfolio-item-wrapper {
+          position: relative;
+        }
+
+        .portfolio-img-background {
+          background-size: cover;
+          background-position:left;
+          background-repeat: no-repeat;
+          height: auto;
+          width: auto;
+        }
+
+         .subtitle           {
+          position: absolute; 
+          top:0;  
+          right: 0%;
+          color: #f1f1f1; 
+          width: 50%; 
+          padding: 40px; 
+          font-weight: 600;
+
+            }
+        img{
+            filter: brightness(70%)
+        }
+        .img-text-wrapper:hover .subtitle{
+            transition: .01s;
+            font-weight: 600;
+            color: transparent;
+        }
+        .img-text-wrapper:hover .subtitle{
+            font-weight: 600;
+            color:aqua; 
+        }
+        .img-darken{
+            transition: 0.1s;
+            filter:brightness(50%);
+        }
+
+        .btn {
+        position:absolute;
+          top: 100%;
+          left: 80%;
+          transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          background-color:transparent;
+          color:greenyellow;
+          font-size: 19px;
+          padding: 8px 20px;
+          border: none;
+          cursor:pointer;
+          border-radius: 50px;
+          text-align:right;
+           font-family: 'Merienda One', cursive;
+
+        }
+
+
+    
+         .containar img {
+                     width: 100%;
+                     height: auto;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+
+
+  
+            a { text-decoration: none; }
+
+            .clearfix { overflow: auto }
+
+
+    
+            
+
+            .hero-text {
+              text-align: center;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(50%, 50%);
+              color: white;
+            }
+
+
+            header .logo {
+                margin-top: 10px;
+                margin-left: 10px; 
+                float: left;
+            }
+
+            header.logo  { 
+                font-size: 10px;
+                font-weight: normal;
+                letter-spacing: -1px;
+                font-variant: small-caps;
+            }
+
+
+            .socialmedia { 
+                float: right; 
+                margin-top: 10px;
+                margin-right: 20px;
+            }
+
+            .socialmedia ul { 
+                list-style: none 
+            }
+
+            .socialmedia ul li { 
+                display: inline 
+            }
+
+            .socialmedia ul li a {
+                margin-left: 5px;
+                padding: 6px;
+                background: #444;
+                color: #fff;
+                display: inline-block;
+                border-radius: 20px;
+            }
+
+            .socialmedia ul li a:hover {
+                background:#00ff99 ;
+            }  
+
+
+        
+             nav {
+
+                font-size: 20px;
+                margin-top: 10px;
+                background:transparent;
+                background: linear-gradient(#009999);
+                text-align: center;
+                border-radius: 10px;
+
+                border-style: double;
+                border-width: 5px;
+            }
+
+            nav ul {
+                list-style:initial;
+            }
+
+            nav ul li {
+                display: inline;
+            }
+
+            nav ul li a {
+                color: #fff;
+                text-transform: uppercase;
+                margin: 10px 20px 10px 20px;
+                display: inline-block;
+
+            }
+
+            nav ul li a:hover {
+                color: sandybrown;
+            }
